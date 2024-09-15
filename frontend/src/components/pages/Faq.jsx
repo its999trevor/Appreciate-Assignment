@@ -6,7 +6,7 @@ const Faq = () => {
     const [faqs, setFaqs] = useState([]);
     useEffect(() => {
         getfaq();
-    }, [])
+    }, [faqs])
     async function getfaq() {
         let res = await faqsService.getFaqs();
         setFaqs(res.data);
