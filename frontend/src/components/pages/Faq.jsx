@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import faqsService from './api';
+import faqsService from './Api';
 
 
 const Faq = () => {
