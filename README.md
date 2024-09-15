@@ -1,5 +1,3 @@
-Here's a refined and cleaned-up version of your `README.md` file for the FAQs API project:
-
 ```markdown
 # FAQs API
 
