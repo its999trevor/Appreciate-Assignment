@@ -14,6 +14,7 @@
 - [FAQ Model](#faq-model)
 - [Working of Frontend](#Working-of-Frontend)
 - [Routes](#Routes-in-the-Application)
+- [Responsive](#Responsive)
 
 ## Features
 
@@ -171,3 +172,12 @@ Here is an overview of the routes configured in the frontend:
 **/about** - About Page: Displays information about the application.
 
 **/faq** - FAQ Page: Displays frequently asked questions retrieved from the backend.
+
+## Responsive
+
+app is fully responsive for tested devices with resolutions like
+Iphone 14 pro max (430x932)
+Iphone XR (414x896)
+Iphone Se (375x667)
+Pixel 7 (412x915)
+Samsung Galaxy s20 (412x915)
