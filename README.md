@@ -13,7 +13,7 @@
 - [Error Handling](#error-handling)
 - [FAQ Model](#faq-model)
 - [Working of Frontend](#Working-of-Frontend)
--[Routes](#Routes-in-the-Application)
+- [Routes](#Routes-in-the-Application)
 
 ## Features
 
