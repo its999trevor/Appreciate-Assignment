@@ -129,3 +129,43 @@ The `Faq` model contains the following fields:
 2. Corrected heading levels and provided a proper table of contents.
 3. Standardized the code block styles (bash, json).
 4. Linked the deployed API and frontend URLs.
+
+```
+
+## Working of Frontend
+
+**Login Page**
+
+To access the homepage, follow these steps:
+
+- Enter any username and password (dummy credentials are acceptable).
+- Click the Login button. After successful login, you will be redirected to the Homepage.
+**Homepage**
+
+- On the homepage, you will find buttons that lead to different sections of the application:
+
+**Chat Button**: Clicking this button will take you to a splash screen for 1 second before redirecting to the ChatApp page.
+
+**Translate Button**: Redirects to the Translate page where you can perform translations(dummy).
+
+**FAQs Button**: Displays all the FAQs retrieved from the API. Ensure that the backend server is running or the deployed site is accessible/running before accessing this page; otherwise, an error will be thrown.
+
+About Button: Redirects to the About page, which provides details about the application.
+
+## Routes in the Application
+
+Here is an overview of the routes configured in the frontend:
+
+**/** - Login Page: The root route that loads the login page.
+
+**/home** - Homepage: After a successful login, users are redirected to the homepage.
+
+**/translate** - Translator Page: Provides the translation feature.
+
+**/splash** - Splash Screen: A temporary screen that shows for 1 second before redirecting to the chat application.
+
+**/chatapp** - Chat Application: The main chat page where users can interact.
+
+**/about** - About Page: Displays information about the application.
+
+**/faq** - FAQ Page: Displays frequently asked questions retrieved from the backend.
