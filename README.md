@@ -1,4 +1,4 @@
-##Assignment
+## Assignment
 
 This project is a Django-based REST API for managing FAQs (Frequently Asked Questions). It provides functionality to create, read, update, and delete FAQs using HTTP methods. The API is built using Django and Django REST Framework.
 
