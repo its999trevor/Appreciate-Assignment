@@ -12,6 +12,8 @@
 - [Example JSON](#example-json-for-creating-a-new-faq)
 - [Error Handling](#error-handling)
 - [FAQ Model](#faq-model)
+- [Working of Frontend](#Working-of-Frontend)
+-[Routes](#Routes-in-the-Application)
 
 ## Features
 
