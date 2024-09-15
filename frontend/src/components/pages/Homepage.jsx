@@ -92,6 +92,7 @@ const Homepage = () => {
                     style={{ color: "#C84AD3", fontSize: "32px", backgroundColor: "#FFC2F2" }} 
                 />
             </div>
+                        
         </div>
     );
 }
