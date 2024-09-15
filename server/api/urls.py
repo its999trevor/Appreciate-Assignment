@@ -1,3 +1,5 @@
+from django.conf import settings
+from django.conf.urls.static import static
 from django.urls import path
 from .views import get_faqs,create_faqs,faqs_detail,get_faqs_id
 
@@ -10,3 +12,6 @@ urlpatterns = [
 
     
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
