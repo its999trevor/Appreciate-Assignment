@@ -12,7 +12,6 @@
 - [Example JSON](#example-json-for-creating-a-new-faq)
 - [Error Handling](#error-handling)
 - [FAQ Model](#faq-model)
-- [License](#license)
 
 ## Features
 
