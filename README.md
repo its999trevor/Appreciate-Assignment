@@ -1,6 +1,6 @@
 ## Assignment
 
-This project is a Django-based REST API for managing FAQs (Frequently Asked Questions). It provides functionality to create, read, update, and delete FAQs using HTTP methods. The API is built using Django and Django REST Framework.
+## Fruit.ai product
 
 ## Table of Contents
 
@@ -27,6 +27,7 @@ This project is a Django-based REST API for managing FAQs (Frequently Asked Ques
 - Python 3.9+
 - Django 3.2+
 - Django REST Framework
+- React
 
 ## Setup
 
@@ -34,7 +35,7 @@ This project is a Django-based REST API for managing FAQs (Frequently Asked Ques
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/MrFranklink/Appreciate-Assignment.git
+    git clone https://github.com/its999trevor/Appreciate-Assignment
     ```
    
 2. Navigate to the server directory:
@@ -122,9 +123,6 @@ The `Faq` model contains the following fields:
 - `description`: A detailed answer to the FAQ (text field).
 - `image_url`: The URL of an image related to the FAQ (optional).
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
 
 ### Key Fixes:
